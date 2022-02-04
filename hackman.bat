@@ -48,7 +48,7 @@ set g4=_
 
     echo Health: %health%
     echo %g1%%g2%%g3%%g4%
-    echo %w1%%w2%%w3%%w4%
+    ::echo %w1%%w2%%w3%%w4%
 
     :: choice sets ERRORLEVEL variable
     choice /n /c abcdefghijklmnopqrstuvwxyz /m "Enter a character: "
